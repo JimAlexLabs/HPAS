@@ -2,7 +2,7 @@
 session_start();
 
 // Database connection
-$con = mysqli_connect("localhost", "root", "", "royalhospitalsdb");
+$con = mysqli_connect("localhost", "root", "", "myhmsdb");
 
 // Check connection
 if (!$con) {
