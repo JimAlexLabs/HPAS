@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html xmlns:w="urn:schemas-microsoft-com:office:word">
+  <head>
+    <title>Hospital Management System - User Manual</title>
+    <xml>
+      <w:WordDocument>
+        <w:View>Print</w:View>
+        <w:Zoom>100</w:Zoom>
+      </w:WordDocument>
+    </xml>
+    <style>
+      body {
+        font-family: "Calibri", sans-serif;
+        line-height: 1.6;
+        margin: 40px;
+      }
+      h1 {
+        color: #3931af;
+        text-align: center;
+        font-size: 24pt;
+        mso-style-name: "Heading 1";
+        mso-style-next: Normal;
+        margin-top: 24pt;
+        margin-bottom: 12pt;
+      }
+      h2 {
+        color: #00c6ff;
+        margin-top: 30px;
+        font-size: 18pt;
+        mso-style-name: "Heading 2";
+        mso-style-next: Normal;
+        margin-top: 18pt;
+        margin-bottom: 6pt;
+      }
+      h3 {
+        color: #333;
+        font-size: 14pt;
+        mso-style-name: "Heading 3";
+        mso-style-next: Normal;
+        margin-top: 12pt;
+        margin-bottom: 6pt;
+      }
+      .toc {
+        background: #f9f9f9;
+        padding: 20px;
+        margin: 20px 0;
+        mso-style-name: "TOC";
+      }
+      .section {
+        margin: 20px 0;
+      }
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        margin: 20px 0;
+      }
+      th,
+      td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+      }
+      th {
+        background-color: #3931af;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hospital Management System</h1>
+    <h2>User Manual</h2>
+    <p>
+      <strong>Version:</strong> 1.0<br />
+      <strong>Last Updated:</strong> 2024
+    </p>
+
+    <!-- Word will replace this with an automatic table of contents -->
+    <div style="page-break-after: always">
+      <h2>Table of Contents</h2>
+      <p style="text-align: center">
+        [Word will automatically generate the table of contents here]
+      </p>
+    </div>
+
+    <div class="section">
+      <h1>1. Introduction</h1>
+      <p>
+        The Hospital Management System (HMS) is a comprehensive web-based
+        application designed to manage and streamline hospital operations. This
+        system facilitates the management of various hospital activities
+        including patient registration, appointment scheduling, doctor
+        management, and administrative tasks.
+      </p>
+    </div>
+
+    <div class="section">
+      <h1>2. System Requirements</h1>
+      <h2>Minimum Requirements:</h2>
+      <ul>
+        <li>Web Server: XAMPP/WAMP/MAMP</li>
+        <li>PHP Version: 7.2.4 or higher</li>
+        <li>MySQL Version: 5.7 or higher</li>
+        <li>Web Browser: Modern browsers (Chrome, Firefox, Safari)</li>
+        <li>Internet Connection: Required for external resources</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h1>3. User Roles</h1>
+      <table>
+        <tr>
+          <th>Role</th>
+          <th>Access Level</th>
+          <th>Responsibilities</th>
+        </tr>
+        <tr>
+          <td>Patient</td>
+          <td>Basic</td>
+          <td>
+            <ul>
+              <li>Register account</li>
+              <li>Book appointments</li>
+              <li>View medical history</li>
+              <li>View prescriptions</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Doctor</td>
+          <td>Intermediate</td>
+          <td>
+            <ul>
+              <li>View appointments</li>
+              <li>Manage patient records</li>
+              <li>Write prescriptions</li>
+              <li>Update patient status</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Admin</td>
+          <td>Advanced</td>
+          <td>
+            <ul>
+              <li>Manage doctors</li>
+              <li>Manage patients</li>
+              <li>View system reports</li>
+              <li>System configuration</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h1>4. Getting Started</h1>
+      <h2>4.1 Accessing the System</h2>
+      <ol>
+        <li>Open your web browser</li>
+        <li>Enter the system URL (localhost/Hospital-Management-System)</li>
+        <li>Select your user role (Patient/Doctor/Admin)</li>
+        <li>Login with your credentials</li>
+      </ol>
+
+      <h2>4.2 First-Time Login</h2>
+      <p>For new patients:</p>
+      <ol>
+        <li>Click on "Register" on the home page</li>
+        <li>Fill in required personal information</li>
+        <li>Create a password (minimum 6 characters)</li>
+        <li>Submit registration form</li>
+        <li>Login with registered email and password</li>
+      </ol>
+    </div>
+
+    <div class="section">
+      <h1>5. Patient Module</h1>
+      <h2>5.1 Booking an Appointment</h2>
+      <ol>
+        <li>Login to patient account</li>
+        <li>Click "Book Appointment"</li>
+        <li>Select preferred doctor</li>
+        <li>Choose available date and time</li>
+        <li>Confirm booking</li>
+      </ol>
+
+      <h2>5.2 Viewing Medical History</h2>
+      <ul>
+        <li>Access appointment history</li>
+        <li>View prescriptions</li>
+        <li>Download medical reports</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h1>6. Doctor Module</h1>
+      <h2>6.1 Managing Appointments</h2>
+      <ul>
+        <li>View daily schedule</li>
+        <li>Accept/Reject appointments</li>
+        <li>Update appointment status</li>
+      </ul>
+
+      <h2>6.2 Patient Management</h2>
+      <ul>
+        <li>View patient details</li>
+        <li>Add prescriptions</li>
+        <li>Update patient records</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h1>7. Admin Module</h1>
+      <h2>7.1 Doctor Management</h2>
+      <ul>
+        <li>Add/Remove doctors</li>
+        <li>Update doctor information</li>
+        <li>Manage doctor schedules</li>
+      </ul>
+
+      <h2>7.2 System Management</h2>
+      <ul>
+        <li>Monitor system usage</li>
+        <li>Generate reports</li>
+        <li>Manage user accounts</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h1>8. Key Features</h1>
+      <ul>
+        <li>Secure user authentication</li>
+        <li>Real-time appointment scheduling</li>
+        <li>Automated email notifications</li>
+        <li>Digital prescription management</li>
+        <li>Patient history tracking</li>
+        <li>Report generation</li>
+        <li>User-friendly interface</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h1>9. Troubleshooting</h1>
+      <table>
+        <tr>
+          <th>Issue</th>
+          <th>Solution</th>
+        </tr>
+        <tr>
+          <td>Unable to login</td>
+          <td>
+            <ul>
+              <li>Check username and password</li>
+              <li>Clear browser cache</li>
+              <li>Contact admin if issue persists</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>Appointment booking failed</td>
+          <td>
+            <ul>
+              <li>Check internet connection</li>
+              <li>Verify doctor availability</li>
+              <li>Try booking for a different time slot</li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>System not loading</td>
+          <td>
+            <ul>
+              <li>Check server status</li>
+              <li>Verify database connection</li>
+              <li>Contact system administrator</li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h1>Contact Support</h1>
+      <p>For additional support or queries, please contact:</p>
+      <ul>
+        <li>Email: support@globalhospital.com</li>
+        <li>Phone: +1-XXX-XXX-XXXX</li>
+        <li>Hours: Monday to Friday, 9:00 AM - 5:00 PM</li>
+      </ul>
+    </div>
+  </body>
+</html>
